@@ -1,0 +1,76 @@
+.listarecetas td{
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(205, 238, 205);
+}
+
+.creador{
+    align-self: flex-end;
+}
+
+table{
+    width: 100%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cuerporeceta{
+    display: flex;
+    width: 100%;
+}
+
+.imagenreceta{ 
+    width: 15%;
+    display: flex;
+    margin-left: 15px;
+}
+
+.texto{
+    
+    width: 85%;
+}
+
+.tituloh3{
+    width: 40%;
+}
+
+.iconos{
+    align-self: flex-end;
+}
+
+h2{
+    width: 100%;
+}
+
+.alergias{
+    display: inline-block;
+}
+
+.caja-alergias{
+    display: flex;
+    align-items: center;
+}
+
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+
+figure:hover > figcaption{
+    display: block;
+    transition: all .5s;
+}
+
+.tituloa{
+    display: flex;
+    color: green;
+    margin-top: 15px;
+    margin-left: 15px;
+}

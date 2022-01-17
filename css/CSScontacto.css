@@ -1,0 +1,47 @@
+.formulario{
+    padding: 60px; 
+    text-align: center;
+
+}
+
+.advertencia{
+    color: red;
+}
+
+.mainformulario{
+    background-color: #E7E7E7;
+    text-align: center;
+    align-items: center;
+}
+
+form input, form select{
+        margin-bottom: 15px;
+        font-family: "Arial, Helvetica, sans-serif";
+        width: 80%;
+        padding: 10px;
+        box-sizing: border-box; 
+        border: none; 
+        color: #525c66; 
+        font-size: 1em;
+}
+
+.boton {
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+    color: 	white;
+    width: 20%;
+
+}
+
+.divradio{
+    display: flex;
+    text-align: left;
+    padding-left: 175px;
+    margin-bottom: 15px;
+}
+
+.divradio p{
+    margin-left:10px ;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- *****************************************************
+NOMBRE: JULIO 
+APELLIDOS: ALVAREZ
+*********************************************************** -->
+<html>
+
+<head>
+	<meta charset="utf-8" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/CSScontacto.css"/>
+	<title>Delicias Kitchen</title>
+    
+</head>
+<body>
+	<header>
+	<div class=imagentitulo>
+		<img src="../imagenes/Logo-Delicias.png" alt="Delicias" width="300" height="150">
+	</div>
+	<nav>
+		<ul>   
+		<li><a href="../index.html">INICIO</a></li>
+		<li><a href="../index.html">SOBRE MÍ</a></li>
+		<li><a href="../listado/lista.html">RECETAS</a></li>
+		<li><a href="formulario.html">CONTACTO</a></li>
+		<li><a href="#">OTRAS COSAS</a></li>
+		</ul>
+	</nav>
+
+    </header>
+    
+    <main class="formulario">
+
+        <h2>Aquí les mostramos el formulario para contactar con nosotros o aportar nuevas recetas!</h2>
+
+        <div class="mainformulario">
+
+            <form method="GET">
+                <br>
+                <p class="advertencia"><b>LAS OPCIONES CON * SON OBLIGATORIAS</b></p>
+                <br>
+                <p>Cual es la finalidad de rellenar nuestro formulario:</p>
+                <select name="Aporte">
+                    <option value="1">Contactar</option> 
+                    <option value="2">Nueva receta</option> 
+                    <option value="3">Abrir tema</option>
+                 </select>
+                 <br>
+                 <br>
+                <div class="datpersonales">
+                 <input type="text" name="nombre" placeholder="Nombre*" required><br><br>
+                 <input type="text" name="apellidos" placeholder="Apellidos*" required><br><br>
+                 <input type="text" name="correo" placeholder="Correo*" required><br><br>
+                <input type="tel" name="telef" placeholder="Telefono"><br>
+                 <p>Fecha de nacimiento*:</p>
+                 <input type="date" id="start" name="trip-start" value="2022-01-01" min="1900-01-01" max="2022-01-01" required><br><br>
+                <div class="divradio">
+                 <p>Sexo:</p>
+                    
+                   <p>Hombre<input type="radio" name="hmo" value="h"></p>
+                   <p>Mujer<input type="radio" name="hmo" value="m"></p>
+                   <p>Otro<input type="radio" name="hmo" value="o"></p>
+                 <br>
+                </div>
+
+                </div>
+                 <input type="text" name="comentario" size="200" placeholder="Comentario o aportación">
+                 <input type="submit" value="Enviar" class="boton">
+            </form>
+
+        </div>
+
+    </main>
+    
+    <footer>
+        <nav>
+            <ul>   
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">RSS</a></li>
+            </ul>
+        </nav>
+        
+    </footer>
+    
+    </body>
+    
+    </html>
